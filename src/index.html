@@ -9,6 +9,10 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="white">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
   <title>page-spy-taro</title>
+  <script crossorigin="anonymous" src="http://localhost:6752/page-spy/index.min.js"></script>
+  <script>
+    window.$pageSpy = new PageSpy();
+  </script>
   <script><%= htmlWebpackPlugin.options.script %></script>
 </head>
 <body>
